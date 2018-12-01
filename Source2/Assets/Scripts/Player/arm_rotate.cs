@@ -24,6 +24,7 @@ public class arm_rotate : MonoBehaviour
          else if (mouseDirection.normalized.x<0)
              moveAngle = rotAngle * Mathf.Rad2Deg+90;
 
+        Debug.Log(moveAngle);
         this.gameObject.transform.rotation = Quaternion.Euler (0, 0, moveAngle-90);
 
     }

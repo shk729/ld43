@@ -40,7 +40,6 @@ public class pMove : RigidPausable {
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
         Vector2 moveDirection = new Vector2(inputX, inputY);
-        ;
         playerBody.MovePosition(playerBody.position + (moveDirection * speed) );
     }
 }

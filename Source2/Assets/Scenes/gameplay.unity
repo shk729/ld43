@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 970847081}
-  speedOffset: 0.2
+  speedOffset: 12
 --- !u!1 &1475622536
 GameObject:
   m_ObjectHideFlags: 0
