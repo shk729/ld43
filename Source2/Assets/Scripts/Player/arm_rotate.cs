@@ -18,11 +18,7 @@ public class arm_rotate : MonoBehaviour
 
          float moveAngle = 0;
          float rotAngle = Mathf.Atan(mouseDirection.normalized.y/ mouseDirection.normalized.x); 
-         
-         if (mouseDirection.normalized.x>=0)
-             moveAngle = rotAngle * Mathf.Rad2Deg-90;
-         else if (mouseDirection.normalized.x<0)
-             moveAngle = rotAngle * Mathf.Rad2Deg+90;
+
 
         moveAngle = rotAngle * Mathf.Rad2Deg;
          this.gameObject.transform.rotation = Quaternion.Euler (0, 0, moveAngle);

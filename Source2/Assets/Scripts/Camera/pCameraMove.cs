@@ -18,7 +18,7 @@ public class pCameraMove : MonoBehaviour {
         Vector3 oldPosition = transform.position;
         Vector3 newPosition = player.transform.position + offset;
         Vector3 difPosition = (newPosition - oldPosition) / speedOffset;
-        Debug.Log(newPosition + " " + oldPosition + " " + difPosition + " " + offset);
+//        Debug.Log(newPosition + " " + oldPosition + " " + difPosition + " " + offset);
         this.transform.position = oldPosition + difPosition;
     }
 }
