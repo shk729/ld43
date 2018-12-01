@@ -338,6 +338,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 100}
   m_EdgeRadius: 0
+--- !u!1001 &429288388
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.37633258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.0151435705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993978051201054, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114223035367103336, guid: 3c7690ad852bf924cae4167c4408cb2d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 970847081}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &745493150
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dea141b067b7e645b2a6de8d4e5b28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 0.1
 --- !u!212 &970847085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -578,9 +625,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1988841629}
-  bulletSpeed: 0.5
+  bulletSpeed: 0.9
   bulletImpulse: 300
-  shootSpeed: 0.2
+  shootSpeed: 0.7
   lastShotTime: 0
   cam: {fileID: 1379507415}
 --- !u!1 &1141385201
