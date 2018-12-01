@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
+    <Compile Include="Assets\Scripts\Monster\MonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\arm_rotate.cs" />
     <Compile Include="Assets\Scripts\Player\Bullet_hit.cs" />
     <Compile Include="Assets\Scripts\Player\ChangeCursor.cs" />
