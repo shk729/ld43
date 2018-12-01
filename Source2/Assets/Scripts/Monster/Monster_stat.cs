@@ -36,7 +36,6 @@ public class Monster_stat : MonoBehaviour {
 
     public void SetHP(float hp)
     {
-
         monster_HP = hp;
     }
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MonsterFollowAI : MonoBehaviour {
     public GameObject target;
+
+    public float monster_damage = 4f;
     public float speed;
 
     private Vector3 offset;
@@ -28,7 +30,7 @@ public class MonsterFollowAI : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player") target.gameObject.GetComponent<player_stat>().SetHP(-4f);
+        if (collision.gameObject.tag == "Player") target.gameObject.GetComponent<player_stat>().SetHP(-monster_damage);
 
     }
 }
