@@ -346,7 +346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 745493151}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 936844795}
   - component: {fileID: 936844796}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Larm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,9 +421,10 @@ GameObject:
   - component: {fileID: 970847083}
   - component: {fileID: 970847082}
   - component: {fileID: 970847084}
+  - component: {fileID: 970847089}
   - component: {fileID: 970847087}
   - component: {fileID: 970847088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,6 +583,18 @@ MonoBehaviour:
   bulletImpulse: 300
   shootSpeed: 0.2
   lastShotTime: 0
+  cam: {fileID: 1379507415}
+--- !u!114 &970847089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970847081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc0b8d2566ff4951a04d1826d41a442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   cam: {fileID: 1379507415}
 --- !u!1 &1141385201
 GameObject:
@@ -866,7 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1632103425}
   - component: {fileID: 1632103426}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chaingun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1018,7 +1031,7 @@ GameObject:
   - component: {fileID: 1988841632}
   - component: {fileID: 1988841631}
   - component: {fileID: 1988841630}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030853671}
   - component: {fileID: 2030853672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
