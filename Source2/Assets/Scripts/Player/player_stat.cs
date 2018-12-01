@@ -9,7 +9,9 @@ public class player_stat : MonoBehaviour {
     [SerializeField]
     public Slider playerHPbar;
 
-    public float curValue_slider=100f;
+    public static float bullet_Damage = 3f;
+
+    public float current_HP=100f;
     private float maxValue_slider = 100f;
 
     void Start()
@@ -19,10 +21,10 @@ public class player_stat : MonoBehaviour {
 
     void playerHPbar_initialization()
     {
-        curValue_slider = maxValue_slider;
+        current_HP = maxValue_slider;
         playerHPbar.minValue = 0;
         playerHPbar.maxValue = maxValue_slider;
-        playerHPbar.value = curValue_slider;
+        playerHPbar.value = current_HP;
 
     }
 }

@@ -8,6 +8,7 @@ public class PlayerHP : MonoBehaviour {
 	[SerializeField]
 	public Slider playerHPbar;
 
+
 	public float curValue_slider;
 	private float maxValue_slider = 300f;
 
