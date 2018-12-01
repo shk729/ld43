@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 375288351}
   - component: {fileID: 375288350}
   - component: {fileID: 375288349}
+  - component: {fileID: 375288352}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -188,21 +189,49 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -30, y: 0, z: 0}
---- !u!1001 &1649221397
-Prefab:
+--- !u!114 &375288352
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 771115522}
+  m_GameObject: {fileID: 375288348}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2411cbcf376c7ad4da857ccd99cccf70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1353015272}
-  speedOffset: 1.001
+  speedOffset: 12
+--- !u!1 &718726524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1649221397}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718726525}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718726525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1649221397}
+  m_GameObject: {fileID: 718726524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353015272
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +261,7 @@ Transform:
   m_Children:
   - {fileID: 1638935574}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1353015274
 MonoBehaviour:
@@ -416,3 +445,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1649221397
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_IsPrefabAsset: 0
