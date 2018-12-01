@@ -5,6 +5,8 @@ using UnityEngine;
 public class pMove : RigidPausable {
     private GameObject player;
     static Rigidbody2D playerBody;
+
+    private Animator player_anim;
     //Vector2 moveDirection;
 
     public float speed;
@@ -13,6 +15,8 @@ public class pMove : RigidPausable {
     void Start () {
         playerBody = GetComponent<Rigidbody2D>();
         player = this.gameObject;
+
+        player_anim = this.GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -41,5 +45,7 @@ public class pMove : RigidPausable {
         float inputY = Input.GetAxis("Vertical");
         Vector2 moveDirection = new Vector2(inputX, inputY);
         playerBody.MovePosition(playerBody.position + (moveDirection * speed) );
+
+        player_anim.Play("hero_walk");
     }
 }
