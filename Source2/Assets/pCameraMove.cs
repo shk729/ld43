@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class pCameraMove : MonoBehaviour {
     public GameObject player;
+    public float speedOffset;
 
     private Vector3 offset;
 
@@ -14,6 +15,9 @@ public class pCameraMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
-        transform.position = player.transform.position + offset;
+        Vector3 oldPosition = transform.position;
+        Vector3 newPosition = player.transform.position + offset;
+        Vector3 difPosition = (newPosition - oldPosition) / speedOffset;
+        transform.position = oldPosition + difPosition;
     }
 }
