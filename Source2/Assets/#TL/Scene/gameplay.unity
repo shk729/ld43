@@ -467,7 +467,6 @@ GameObject:
   m_Component:
   - component: {fileID: 936844795}
   - component: {fileID: 936844796}
-  - component: {fileID: 936844797}
   m_Layer: 0
   m_Name: Larm
   m_TagString: Untagged
@@ -500,22 +499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67ce7c64348744e8ad1b87bdb2f3d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &936844797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 936844794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c57dbb342a2b4263b9463400052ac3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1701114222}
-  bulletSpeed: 0.5
-  bulletImpulse: 300
-  shootSpeed: 0.2
-  lastShotTime: 0
 --- !u!1 &970847081
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +513,7 @@ GameObject:
   - component: {fileID: 970847084}
   - component: {fileID: 970847087}
   - component: {fileID: 970847088}
+  - component: {fileID: 970847089}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -685,6 +669,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTexture: {fileID: 2800000, guid: 11a2a5bbef8384ae299ed570239cadd8, type: 3}
+--- !u!114 &970847089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970847081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c57dbb342a2b4263b9463400052ac3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1701114222}
+  bulletSpeed: 0.5
+  bulletImpulse: 300
+  shootSpeed: 0.2
+  lastShotTime: 0
 --- !u!1 &1141385201
 GameObject:
   m_ObjectHideFlags: 0

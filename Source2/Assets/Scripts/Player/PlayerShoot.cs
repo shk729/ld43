@@ -14,8 +14,10 @@ public class PlayerShoot : RigidPausable {
 	public float shootSpeed = 0.2f;
 	public float lastShotTime;
 
+    public Camera cam;
+
 	void Start() {
-		lastShotTime = 0;
+        lastShotTime = 0;
 	}
 
 	void FixedUpdate () 
@@ -39,7 +41,10 @@ public class PlayerShoot : RigidPausable {
 		if (Time.time>(lastShotTime + shootSpeed))
 		{
 
-            Vector3 currentMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 temp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f);
+            Vector3 currentMousePosition = cam.ScreenToWorldPoint(temp);
+
+
 
             Vector2 mouseDirection = new Vector2 (currentMousePosition.x - transform.position.x,
 				currentMousePosition.y - transform.position.y );

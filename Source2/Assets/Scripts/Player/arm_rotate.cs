@@ -4,29 +4,27 @@ using UnityEngine;
 
 public class arm_rotate : MonoBehaviour
 {
-    private Vector2 m;
+    private Vector3 m;
+    public Camera cam;
 
     void FixedUpdate()
     {
 
-      //  m = Input.mousePosition;
-     //   Vector2 currentMousePosition = Camera.main.ScreenToWorldPoint(m);
-   //    Vector2 mouseDirection = new Vector2(currentMousePosition.x - transform.position.x,
-    //        currentMousePosition.y - transform.position.y);
+        Vector3 temp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f);
+        Vector3 currentMousePosition = cam.ScreenToWorldPoint(temp);    
+        Vector3 mouseDirection = currentMousePosition - transform.position;
 
+         float angle = Vector3.Angle(mouseDirection, Vector3.up);
 
+         float moveAngle = 0;
+         float rotAngle = Mathf.Atan(mouseDirection.normalized.y/ mouseDirection.normalized.x); 
 
-        //float angle = SignedAngleBetween(m, playerPosition, new Vector3(0, 0, 1));
+         if (mouseDirection.normalized.x>=0)
+             moveAngle = rotAngle * Mathf.Rad2Deg-90;
+         else if (mouseDirection.normalized.x<0)
+             moveAngle = rotAngle * Mathf.Rad2Deg+90;
 
-
-     //   Debug.Log(mouseDirection);
-        // Vector2 rotateDirection = new Vector2(m.x - playerPosition.x, m.y - playerPosition.y);
-
-        //    float angle = Vector3.Angle(rotateDirection, Vector3.zero);
-
-
-
-
+        this.gameObject.transform.rotation = Quaternion.Euler (0, 0, moveAngle-90);
 
     }
 
