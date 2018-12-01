@@ -49,7 +49,6 @@ public class pMove : RigidPausable {
         if (inputX<0) this.transform.localScale = new Vector3(1f, 1, 1);
             else if (inputX > 0) this.transform.localScale = new Vector3(-1f, 1, 1);
 
-
         if (moveDirection.magnitude>0) player_anim.Play("hero_walk");
     }
 }
