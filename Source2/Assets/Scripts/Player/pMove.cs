@@ -46,6 +46,10 @@ public class pMove : RigidPausable {
         Vector2 moveDirection = new Vector2(inputX, inputY);
         playerBody.MovePosition(playerBody.position + (moveDirection * speed) );
 
-        player_anim.Play("hero_walk");
+        if (inputX<0) this.transform.localScale = new Vector3(1f, 1, 1);
+            else if (inputX > 0) this.transform.localScale = new Vector3(-1f, 1, 1);
+
+
+        if (moveDirection.magnitude>0) player_anim.Play("hero_walk");
     }
 }
