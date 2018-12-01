@@ -27,8 +27,6 @@ ExportedObj/
 *.svd
 *.pdb
 
-# Unity3D generated meta files
-*.pidb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -37,6 +35,3 @@ sysinfo.txt
 *.apk
 *.unitypackage
 /Source2/.vs/Source2/v15/Server/sqlite3/db.lock
-Source2/Assets/Scenes.meta
-*.meta
-Source2/Assets/Animation/monster.meta
