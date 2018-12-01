@@ -14,7 +14,7 @@ public class pCameraMove : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void LateUpdate () {
         Vector3 oldPosition = transform.position;
         Vector3 newPosition = player.transform.position + offset;
         Vector3 difPosition = (newPosition - oldPosition) / speedOffset;
