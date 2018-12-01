@@ -382,6 +382,11 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 970847081}
+    - target: {fileID: 95419755249179828, guid: 3c7690ad852bf924cae4167c4408cb2d,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 016995c216750e8458cf78db14b1f557, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
   m_IsPrefabAsset: 0
@@ -626,9 +631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1988841629}
-  bulletSpeed: 0.9
+  bulletSpeed: 0.8
   bulletImpulse: 300
-  shootSpeed: 0.7
+  shootSpeed: 0.2
   lastShotTime: 0
   cam: {fileID: 1379507415}
 --- !u!1 &1141385201
