@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dea141b067b7e645b2a6de8d4e5b28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 0.1
 --- !u!212 &970847085
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -625,9 +625,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1988841629}
-  bulletSpeed: 0.5
+  bulletSpeed: 0.9
   bulletImpulse: 300
-  shootSpeed: 0.2
+  shootSpeed: 0.7
   lastShotTime: 0
   cam: {fileID: 1379507415}
 --- !u!1 &1141385201
