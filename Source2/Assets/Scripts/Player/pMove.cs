@@ -43,7 +43,7 @@ public class pMove : RigidPausable {
 
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
-        Vector2 moveDirection = new Vector2(inputX, inputY);
+        Vector2 moveDirection = new Vector2(inputX, inputY).normalized;
         playerBody.MovePosition(playerBody.position + (moveDirection * speed) );
 
         if (inputX<0) this.transform.localScale = new Vector3(1f, 1, 1);
