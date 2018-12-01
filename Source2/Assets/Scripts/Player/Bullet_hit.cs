@@ -7,13 +7,11 @@ public class Bullet_hit : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D target)
     {
-        Debug.Log("hit1");
+    
         if (target.gameObject.tag == "Monster")
         {
             Destroy(this.gameObject);
-            Debug.Log("hit");
-
-          target.gameObject.GetComponent<Monster_stat>().Monster_hit(3f);
+            target.gameObject.GetComponent<Monster_stat>().Monster_hit(player_stat.bullet_Damage);
 
         }
     }

@@ -11,7 +11,7 @@ public class player_stat : MonoBehaviour {
 
     public static float bullet_Damage = 3f;
 
-    public float current_HP=100f;
+    public float current_HP = 100f;
     private float maxValue_slider = 100f;
 
     void Start()
@@ -27,4 +27,18 @@ public class player_stat : MonoBehaviour {
         playerHPbar.value = current_HP;
 
     }
+
+    public void SetHP(float hp_change)
+    {
+        current_HP += hp_change;
+        playerHPbar.value = current_HP;
+
+        if (current_HP < 0) playerDeath();
+    }
+
+    public void playerDeath()
+    {
+        this.gameObject.SetActive(false);
+    }
+
 }
