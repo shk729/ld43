@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{ADFE844B-638F-9F42-1B2A-752D5EA3C81B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Monster/MonsterFollowAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/player_stat.cs">
     <Files>
       <File FileName="Assets/Scripts/Player/pMove.cs" Line="51" Column="9" />
       <File FileName="Assets/Scripts/Player/PlayerShoot.cs" Line="64" Column="9" />
-      <File FileName="Assets/Scripts/Player/player_stat.cs" Line="14" Column="34" />
-      <File FileName="Assets/#TL/Scripts/_OLD/Player/PlayerHP.cs" Line="11" Column="1" />
-      <File FileName="Assets/Scripts/Monster/Monster_stat.cs" Line="8" Column="34" />
-      <File FileName="Assets/Scripts/Player/Bullet_hit.cs" Line="20" Column="2" />
-      <File FileName="Assets/Scripts/Monster/MonsterFollowAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/player_stat.cs" Line="41" Column="40" />
+      <File FileName="Assets/Scripts/Monster/Monster_stat.cs" Line="38" Column="6" />
+      <File FileName="Assets/Scripts/Player/Bullet_hit.cs" Line="15" Column="13" />
+      <File FileName="Assets/Scripts/Monster/MonsterFollowAI.cs" Line="26" Column="82" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
