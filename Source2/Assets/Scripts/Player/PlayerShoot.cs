@@ -25,8 +25,8 @@ public class PlayerShoot : RigidPausable {
 		if (Input.GetKey(KeyCode.Mouse0))
 		{
 			Fire ();
-			AudioSource audio = GetComponent<AudioSource>();
-			audio.Play();
+	//	AudioSource audio = GetComponent<AudioSource>();
+	//		audio.Play();
 
 		}
 	}//	void FixedUpdate ()
@@ -38,8 +38,10 @@ public class PlayerShoot : RigidPausable {
 
 		if (Time.time>(lastShotTime + shootSpeed))
 		{
-			Vector2 currentMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			Vector2 mouseDirection = new Vector2 (currentMousePosition.x - transform.position.x,
+
+            Vector3 currentMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            Vector2 mouseDirection = new Vector2 (currentMousePosition.x - transform.position.x,
 				currentMousePosition.y - transform.position.y );
 
 			bulletPosition.x = bullet.transform.position.x;
