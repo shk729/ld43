@@ -8,6 +8,7 @@ TagManager:
   - POI
   - Stantion
   - Head
+  - melee_collider
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Scene
   - Player
   - Player_arms
-  - Bullet
+  - 
   - 
   - 
   - 
@@ -47,7 +48,4 @@ TagManager:
     locked: 0
   - name: 1
     uniqueID: 2463316167
-    locked: 0
-  - name: 2
-    uniqueID: 450377767
     locked: 0

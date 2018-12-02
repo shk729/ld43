@@ -38,9 +38,6 @@ public class pMove : RigidPausable {
 
     void KeyboardMove()
     {
-        
-        float forceScale = 5f;
-
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
         Vector2 moveDirection = new Vector2(inputX, inputY).normalized;
