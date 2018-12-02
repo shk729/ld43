@@ -51,5 +51,6 @@ public class player_stat : MonoBehaviour {
 
     public void playerDestroy() {
         this.gameObject.SetActive(false);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
 }
