@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Monster_stat : MonoBehaviour {
 
     public float monster_HP = 10;
+    public Animator monster_anim;
 
     [SerializeField]
     private Slider monsterSlider;
@@ -22,7 +23,11 @@ public class Monster_stat : MonoBehaviour {
         monster_HP -= damage;
         monsterSlider.value = monster_HP;
 
-        if (monster_HP <= 0) Destroy(this.gameObject);
+        if (monster_HP <= 0) {
+            monster_anim.Play("egg_death");
+            Destroy(this.gameObject, 0.4f);
+        }
+     
         
     }
 
