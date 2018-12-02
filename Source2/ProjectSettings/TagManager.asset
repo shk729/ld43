@@ -11,6 +11,7 @@ TagManager:
   - melee_collider
   - Player_Tag
   - Marked
+  - UI_Counter
   layers:
   - Default
   - TransparentFX

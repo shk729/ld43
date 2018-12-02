@@ -79,7 +79,9 @@ class ShowCounter : StateItem
     private int counter = 1;
     public override StateItem run()
     {
-        counter++;
+        GameObject text = GameObject.FindGameObjectWithTag("UI_Counter");
+        UnityEngine.UI.Text item = text.GetComponent<UnityEngine.UI.Text>();
+        item.text = "WoooooHooo: " + counter++;
         return next;
     }
 }
