@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784c3fd33e803dd4cb48a4e3eddf9492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 10
 --- !u!114 &114486870780497066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421b936355e7d4fc1bec5a1043b1e186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_gamage: 3
+  bullet_gamage: 4
 --- !u!114 &114569425504891826
 MonoBehaviour:
   m_ObjectHideFlags: 1

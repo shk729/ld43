@@ -35,8 +35,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1552801303614290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.55, y: 1.86, z: -0.071377926}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 20.9, y: 17.29, z: -0.071377926}
+  m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,11 +53,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 1
-  initialDelay: 3
-  delay: 1.5
-  infinitySpawn: 1
+  initialDelay: 10
+  delay: 0.2
+  infinitySpawn: 0
   defaultTarget: {fileID: 0}
   monstersArray:
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
+  - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
   - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
   - {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d, type: 2}
 --- !u!212 &212113406770792446
