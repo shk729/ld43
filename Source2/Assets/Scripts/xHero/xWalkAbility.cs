@@ -8,6 +8,7 @@ public class xWalkAbility : xAbility {
 
     public override void doUpdate()
     {
+        Debug.Log("====");
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
         Vector2 move = new Vector2(inputX, inputY);
@@ -22,6 +23,7 @@ public class xWalkAbility : xAbility {
 
 	void KeyboardMove(Vector2 moveDirection)
     {
+        Debug.Log(speed);
         Rigidbody2D body = Body();
         body.MovePosition( body.position + (moveDirection * speed) );
     }
