@@ -19,14 +19,14 @@ public class MonsterHit : MonoBehaviour {
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D target)
+    private void OnCollisionEnter2D(Collision2D target)
     {
         if (target.gameObject.tag == "Player")
         {
             onAim = target.gameObject.GetComponent<player_stat>(); //.AddHP(-damage);
         }
     }
-    private void OnTriggerExit2D(Collider2D target)
+    private void OnCollisionExit2D(Collision2D target)
     {
         onAim = null;
     }
