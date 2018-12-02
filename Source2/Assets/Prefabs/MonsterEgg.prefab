@@ -168,7 +168,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4292163770250770}
-  - component: {fileID: 95181386916285586}
   - component: {fileID: 50933941499114940}
   - component: {fileID: 61960233520929602}
   - component: {fileID: 114462357809012202}
@@ -282,24 +281,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.3358307}
   m_EdgeRadius: 0
---- !u!95 &95181386916285586
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1995624398301996}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!95 &95440780088531974
 Animator:
   serializedVersion: 3
@@ -453,6 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monster_HP: 25
+  monster_anim: {fileID: 95440780088531974}
   monsterSlider: {fileID: 114932886079181980}
 --- !u!114 &114533442205055382
 MonoBehaviour:
