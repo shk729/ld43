@@ -157,6 +157,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114408842484401068, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+        type: 2}
+      propertyPath: playerHPbar
+      value: 
+      objectReference: {fileID: 746127827}
     - target: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
       propertyPath: cam
@@ -167,15 +172,6 @@ Prefab:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1379507415}
-    - target: {fileID: 114408842484401068, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: playerHPbar
-      value: 
-      objectReference: {fileID: 746127827}
-    - target: {fileID: 1862948152003758, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
   m_IsPrefabAsset: 0
@@ -970,22 +966,22 @@ Prefab:
     - target: {fileID: 224252100886372358, guid: 73572aae0dd7325489995efe19d83df5,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -6
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 224252100886372358, guid: 73572aae0dd7325489995efe19d83df5,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -152
+      value: -507
       objectReference: {fileID: 0}
     - target: {fileID: 224252100886372358, guid: 73572aae0dd7325489995efe19d83df5,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 224252100886372358, guid: 73572aae0dd7325489995efe19d83df5,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 20
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 224252100886372358, guid: 73572aae0dd7325489995efe19d83df5,
         type: 2}
