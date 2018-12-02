@@ -98,22 +98,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1832172609452340
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4789651058483846}
-  - component: {fileID: 114835299469025816}
-  m_Layer: 9
-  m_Name: xAbility
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1862948152003758
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +161,7 @@ Transform:
   m_Children:
   - {fileID: 4885966067676574}
   m_Father: {fileID: 4740388038223708}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4651897436535398
 Transform:
@@ -190,7 +174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4740388038223708}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4735657076559124
 Transform:
@@ -204,7 +188,7 @@ Transform:
   m_Children:
   - {fileID: 4177269014610152}
   m_Father: {fileID: 4740388038223708}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4740388038223708
 Transform:
@@ -216,24 +200,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4789651058483846}
   - {fileID: 4735657076559124}
   - {fileID: 4651897436535398}
   - {fileID: 4224027290754272}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4789651058483846
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1832172609452340}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4740388038223708}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4885966067676574
@@ -453,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4da3925a6c4c34cb3588654d25f9e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enabled: 0
   damageZone: {fileID: 1281873186921340}
   cooldown: 1.5
   attackTime: 0.5
@@ -467,6 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f08004c420549c9b94d88822609109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Rarm: {fileID: 1611260639494432}
+  Larm: {fileID: 1312281660808742}
   playerHPbar: {fileID: 0}
   current_HP: 100
 --- !u!114 &114451385584073382
@@ -510,20 +483,6 @@ MonoBehaviour:
   bulletSpeed: 1
   bulletImpulse: 300
   shootSpeed: 0.15
---- !u!114 &114835299469025816
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1832172609452340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20596682549dc74482a307e33ab16a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  speed: 0.1
-  hero: {fileID: 1862948152003758}
 --- !u!212 &212284537853983682
 SpriteRenderer:
   m_ObjectHideFlags: 1
