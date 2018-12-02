@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class player_stat : MonoBehaviour {
 
 
+    public GameObject Rarm;
+    public GameObject Larm;
+
     [SerializeField]
     public Slider playerHPbar;
 
@@ -37,7 +40,18 @@ public class player_stat : MonoBehaviour {
 
     public void playerDeath()
     {
+
+        Rarm.SetActive(false);
+        Larm.SetActive(false);
+        this.GetComponent<Animator>().Play("hero_death");
+
+   
+    }
+
+    public void playerDestroy() {
         this.gameObject.SetActive(false);
     }
+
+
 
 }
