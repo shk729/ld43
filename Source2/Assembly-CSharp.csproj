@@ -102,7 +102,6 @@
     <Compile Include="Assets\Scripts\Player\player_stat.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Player\pMove.cs" />
-    <Compile Include="Assets\Scripts\Player\ScenaryPlayer.cs" />
     <Compile Include="Assets\Scripts\SM\Marker.cs" />
     <Compile Include="Assets\Scripts\SM\SM.cs" />
     <Compile Include="Assets\Scripts\xHero\GunArmAbility.cs" />
