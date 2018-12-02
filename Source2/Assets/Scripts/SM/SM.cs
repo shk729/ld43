@@ -10,12 +10,12 @@ abstract class StateItem
     public abstract StateItem run();
 }
 
-class StartStates
+class Scenary
 {
     private StateItem current;
     private StateItem start;
 
-    public StartStates then(StateItem state)
+    public Scenary then(StateItem state)
     {
         if (start == null) start = state;
         if (current != null) current.next = state;
@@ -25,11 +25,49 @@ class StartStates
 
     public void run()
     {
+        if (start == null) return;
         start = start.run();
     }
 }
 
 
+class WaitState : StateItem
+{
+    private float delay;
+    private float startTime = 0;
+
+    public WaitState(float delay)
+    {
+        this.delay = delay;
+    }
+
+    public override StateItem run()
+    {
+        if (startTime == 0)
+        {
+            startTime = Time.time;
+            return this;
+        }
+        if (Time.time > startTime + delay) return next;
+        return this;
+    }
+}
+
+class LogState : StateItem
+{
+    private string msg;
+
+    public LogState(string value)
+    {
+        msg = value;
+    }
+
+    public override StateItem run()
+    {
+        Debug.Log(msg);
+        return next;
+    }
+}
 
 
 class WaitForNoMonsters : StateItem
