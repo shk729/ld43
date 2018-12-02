@@ -130,9 +130,7 @@ class ActivateSpawner : StateItem
         xMonsterSpawner[] spawners = GameObject.FindObjectsOfType<xMonsterSpawner>();
         foreach(xMonsterSpawner spawner in spawners)
         {
-            Debug.Log("CHECK " + spawner.name + " - " + name + " == " + (!spawner.name.Equals(name)));
             if (!spawner.name.Equals(name) ) continue;
-            Debug.Log("RUN " + spawner.name + " - " + name + " == " + (!spawner.name.Equals(name)));
             spawner.active = value;
         }
 
