@@ -184,6 +184,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4096581163285400, guid: 107431a3b2bb64adc9f7c6793a91e5a9,
     type: 2}
   m_PrefabInternal: {fileID: 40766507}
+--- !u!114 &53572147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114359926551720460, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: 4c4da3925a6c4c34cb3588654d25f9e7, type: 3}
 --- !u!1 &65605318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2035,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1893376746}
+      - m_Target: {fileID: 905637647}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -2473,6 +2479,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362,
     type: 2}
   m_PrefabInternal: {fileID: 838171566}
+--- !u!114 &905637647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: cecc2d8edab970f4da56aae530250f61, type: 3}
 --- !u!4 &936233470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4096581163285400, guid: 107431a3b2bb64adc9f7c6793a91e5a9,
@@ -2925,6 +2937,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e9f43f8e970e41d8b9078930f8578a3, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1202440296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114297224592546808, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: d20596682549dc74482a307e33ab16a9, type: 3}
 --- !u!1 &1214622488
 GameObject:
   m_ObjectHideFlags: 0
@@ -4004,7 +4022,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1598972104}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 53572147}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1598972101}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1598972104
@@ -4469,12 +4520,34 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: c1393f557b07c5740990c259175818e0, type: 3}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1202440296}
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1714504819}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4978,12 +5051,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4940880676310714, guid: 1a1f40a6f843c4ca1ad1da24e91b48c3,
     type: 2}
   m_PrefabInternal: {fileID: 1890835758}
---- !u!114 &1893376746 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114326065236190338, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1641557321}
-  m_Script: {fileID: 11500000, guid: 48c96d8cacc7eac4db670ba73ebddbb8, type: 3}
 --- !u!1001 &1915619956
 Prefab:
   m_ObjectHideFlags: 0

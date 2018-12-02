@@ -28,7 +28,7 @@ public class ScenaryPlayer : MonoBehaviour {
             .then(new WaitState(2.2f))
             .then(new ChangeActiveState(messages, "WaveComplete", false))
             .then(new ChangeActiveState(ui, "Skill choose panel", true))
-            .then( new WaitUntilInactiveState(ui) )
+            .then( new WaitUntilInactiveState(dialogItem) )
             .then( new ActivateSpawner("Spawner_1") )
             ;
 	}
