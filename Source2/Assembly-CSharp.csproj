@@ -90,6 +90,7 @@
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\WinPanel.cs" />
     <Compile Include="Assets\ScenaryPlayer.cs" />
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
+    <Compile Include="Assets\Scripts\Menu\StartMenuManager.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterHit.cs" />
