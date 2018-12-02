@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 114245784707656416}
   - component: {fileID: 58684996420524346}
   - component: {fileID: 114926651569194068}
+  - component: {fileID: 58978886513821012}
   m_Layer: 8
   m_Name: MonsterEgg
   m_TagString: Monster
@@ -212,6 +213,21 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!58 &58684996420524346
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995624398301996}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
+--- !u!58 &58978886513821012
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

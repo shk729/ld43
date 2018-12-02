@@ -43,5 +43,10 @@ public class SwordAbility : xAbility
     {
         // Do nothing...
     }
+
+    public void Downgrade()
+    {
+        cooldown *= 2;
+    }
 }
 

@@ -74,6 +74,15 @@ class ChangeActiveState : StateItem
     }
 }
 
+class ShowCounter : StateItem
+{
+    private int counter = 1;
+    public override StateItem run()
+    {
+        counter++;
+        return next;
+    }
+}
 
 class WaitState : StateItem
 {
@@ -92,7 +101,11 @@ class WaitState : StateItem
             startTime = Time.time;
             return this;
         }
-        if (Time.time > startTime + delay) return next;
+        if (Time.time > startTime + delay)
+        {
+            startTime = 0;
+            return next;
+        }
         return this;
     }
 }
