@@ -51,4 +51,9 @@ public class xWalkAbility : xAbility {
     {
         this.speed = speed;
     }
+
+    public void Downgrade()
+    {
+        speed /= 2;
+    }
 }

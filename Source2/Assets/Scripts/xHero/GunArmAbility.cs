@@ -53,4 +53,9 @@ public class GunArmAbility : xAbility{
 
         }
     }
+
+    public void Downgrade()
+    {
+
+    }
 }

@@ -12,9 +12,6 @@ public class GunShotAbility : xAbility {
     private float lastShotTime;
     private Vector2 bulletPosition;
 
-    
-
-
     public override void doUpdate()
     {
         FireControl();
@@ -65,7 +62,11 @@ public class GunShotAbility : xAbility {
 
             lastShotTime = Time.time;
         }
+    }
 
 
+    public void Downgrade()
+    {
+        shootSpeed *= 2;
     }
 }

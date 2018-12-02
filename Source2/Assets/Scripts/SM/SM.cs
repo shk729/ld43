@@ -92,7 +92,11 @@ class WaitState : StateItem
             startTime = Time.time;
             return this;
         }
-        if (Time.time > startTime + delay) return next;
+        if (Time.time > startTime + delay)
+        {
+            startTime = 0;
+            return next;
+        }
         return this;
     }
 }

@@ -14,25 +14,8 @@ public class ScenaryPlayer : MonoBehaviour {
     private Scenary scenary = new Scenary();
     // Use this for initialization
     void Start () {
-        scenary
-            .then( new LogState("Start of machine") )
-            //.then(new WaitState(0.5f))
-            //.then(new LogState("Afffter delllay"))
-            //.then(new WaitState(0.5f))
-            //.then(new LogState("Afffter delllay 2 COOOL !!!"))
-            .then( new ActivateSpawner("Spawner_1") )
-            .then(new ActivateSpawner("Spawner (3)"))
-            .then(new WaitState(3f))
-            .then(new WaitForNoMonsters())
-            .then(new LogState("thea all DEAD!!!!"))
-            .then(new ChangeActiveState(messages, "WaveComplete", true))
-            .then(new WaitState(2.2f))
-            .then(new ChangeActiveState(messages, "WaveComplete", false))
-            .then(new ChangeActiveState(ui, "Skill choose panel", true))
-            .then( new WaitUntilInactiveState(dialogItem) )
-            .then( new ActivateSpawner("Spawner_1") )
-            ;
-	}
+        generateScenary();
+    }
 	
 	// Update is called once per frame
 	void LateUpdate () {
@@ -43,6 +26,25 @@ public class ScenaryPlayer : MonoBehaviour {
             Run();
         }
 	}
+
+    void generateScenary()
+    {
+        StateItem first = new LogState("Loop Start");
+        //StateItem last = new LogState("Loop End");
+        scenary
+            .then(first)
+            .then(new ActivateSpawner("Spawner_1"))
+            //.then(new ActivateSpawner("Spawner (3)"))
+            .then(new WaitState(3f))
+            .then(new WaitForNoMonsters())
+            .then(new ChangeActiveState(messages, "WaveComplete", true))
+            .then(new WaitState(2.2f))
+            .then(new ChangeActiveState(messages, "WaveComplete", false))
+            .then(new ChangeActiveState(ui, "Skill choose panel", true))
+            .then(new WaitUntilInactiveState(dialogItem))
+            .then(first)
+            ;
+    }
 
     void Run()
     {

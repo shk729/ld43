@@ -123,11 +123,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1862948152003758, guid: 0dbbe3fe6971a2b4981433964cd095c7,
     type: 2}
   m_PrefabInternal: {fileID: 1641557321}
---- !u!4 &10196391 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4740388038223708, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1641557321}
 --- !u!1001 &40766507
 Prefab:
   m_ObjectHideFlags: 0
@@ -854,141 +849,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 221451296}
   m_CullTransparentMesh: 0
---- !u!1 &234840927
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 234840928}
-  - component: {fileID: 234840930}
-  - component: {fileID: 234840929}
-  m_Layer: 9
-  m_Name: Laser
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &234840928
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 234840927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.43, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 10196391}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!120 &234840929
-LineRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 234840927}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 8bafc97c42f854d528768f991257c455, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Positions:
-  - {x: -15, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
-  m_Parameters:
-    serializedVersion: 2
-    widthMultiplier: 1
-    widthCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.934428
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    colorGradient:
-      serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
-    alignment: 0
-    textureMode: 0
-    generateLightingData: 0
-  m_UseWorldSpace: 0
-  m_Loop: 0
---- !u!114 &234840930
+--- !u!114 &234840930 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 234840927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
   m_Script: {fileID: 11500000, guid: 590301ca2b7ef43998a545b29bb1b814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lr: {fileID: 234840929}
-  cam: {fileID: 1379507415}
 --- !u!1001 &238628551
 Prefab:
   m_ObjectHideFlags: 0
@@ -2176,8 +2042,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905637647}
-        m_MethodName: set_enabled
-        m_Mode: 6
+        m_MethodName: Downgrade
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2206,8 +2072,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+          m_BoolArgument: 1
+        m_CallState: 0
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &721416095
@@ -4175,8 +4041,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 53572147}
-        m_MethodName: set_enabled
-        m_Mode: 6
+        m_MethodName: Downgrade
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4194,8 +4060,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+          m_BoolArgument: 1
+        m_CallState: 0
       - m_Target: {fileID: 1994752153}
         m_MethodName: SetActive
         m_Mode: 6
@@ -4351,11 +4217,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 1379507415}
     - target: {fileID: 114408842484401068, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
       propertyPath: playerHPbar
@@ -4366,16 +4227,16 @@ Prefab:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1379507415}
-    - target: {fileID: 212284537853983682, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    - target: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
-      propertyPath: m_SortingLayerID
-      value: -1831651129
-      objectReference: {fileID: 0}
-    - target: {fileID: 212284537853983682, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1379507415}
+    - target: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1379507415}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
   m_IsPrefabAsset: 0
@@ -4672,8 +4533,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1202440296}
-        m_MethodName: SetSpeed
-        m_Mode: 4
+        m_MethodName: Downgrade
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4691,8 +4552,8 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+          m_BoolArgument: 1
+        m_CallState: 0
       - m_Target: {fileID: 1994752153}
         m_MethodName: SetActive
         m_Mode: 6
