@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\xHero\SwordAbility.cs" />
     <Compile Include="Assets\Scripts\xHero\SwordHit.cs" />
     <Compile Include="Assets\Scripts\xHero\xAbilityTest.cs" />
+    <Compile Include="Assets\Scripts\xHero\xHeroAbilities.cs" />
     <Compile Include="Assets\Scripts\xHero\xHeroStatus.cs" />
     <Compile Include="Assets\Scripts\xHero\xWalkAbility.cs" />
     <Reference Include="UnityEditor.StandardEvents">
