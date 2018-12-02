@@ -257,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 1411787761240104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.109, y: -0.102000006, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4177269014610152}
   m_RootOrder: 0
@@ -311,12 +311,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.7
+  m_Radius: 0.85
 --- !u!61 &61760967871398250
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -334,7 +334,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.58, y: 0.6}
-    newSize: {x: 0.01, y: 0.01}
+    newSize: {x: 0.58, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784c3fd33e803dd4cb48a4e3eddf9492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 10
 --- !u!114 &114486870780497066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421b936355e7d4fc1bec5a1043b1e186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_gamage: 3
+  bullet_gamage: 4
 --- !u!114 &114569425504891826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -605,12 +605,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc3e65cc5fe004afe80d5e01817aba3a, type: 3}
-  m_Color: {r: 0, g: 0.42427883, b: 0.99215686, a: 1}
+  m_Sprite: {fileID: 21300000, guid: cfeda27fae256fe45a9c8c19e2a71c77, type: 3}
+  m_Color: {r: 0, g: 0.779001, b: 0.99215686, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 0.58, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

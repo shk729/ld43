@@ -6,8 +6,9 @@ public class SwordHit : MonoBehaviour {
     public float damage;
 
 
-	void OnCollisionEnter2D(Collision2D target)
+	void OnTriggerEnter2D(Collider2D target)
     {
+        Debug.Log("Shotaputat");
         if (target.gameObject.tag == "Monster")
         {
             target.gameObject.GetComponent<Monster_stat>().Monster_hit( damage );
