@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 50092131349628868}
   - component: {fileID: 212284537853983682}
   - component: {fileID: 61890444811777806}
+  - component: {fileID: 114408842484401068}
   m_Layer: 9
   m_Name: HeroX
   m_TagString: Untagged
@@ -436,6 +437,19 @@ MonoBehaviour:
   damageZone: {fileID: 1281873186921340}
   cooldown: 1.5
   attackTime: 0.5
+--- !u!114 &114408842484401068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1862948152003758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f08004c420549c9b94d88822609109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHPbar: {fileID: 0}
+  current_HP: 100
 --- !u!114 &114451385584073382
 MonoBehaviour:
   m_ObjectHideFlags: 1
