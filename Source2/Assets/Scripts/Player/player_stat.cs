@@ -25,8 +25,9 @@ public class player_stat : MonoBehaviour {
         playerHPbar.value = current_HP;
 
     }
+    
 
-    public void SetHP(float hp_change)
+    public void AddHP(float hp_change)
     {
         current_HP += hp_change;
         playerHPbar.value = current_HP;

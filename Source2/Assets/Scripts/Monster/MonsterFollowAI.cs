@@ -27,10 +27,4 @@ public class MonsterFollowAI : MonoBehaviour {
         Vector3 current = this.transform.position;
         this.transform.position = Vector3.MoveTowards(current, tPosition, speed);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player") target.gameObject.GetComponent<player_stat>().SetHP(-monster_damage);
-
-    }
 }

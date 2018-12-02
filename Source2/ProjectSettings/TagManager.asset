@@ -9,6 +9,7 @@ TagManager:
   - Stantion
   - Head
   - melee_collider
+  - Player_Tag
   layers:
   - Default
   - TransparentFX

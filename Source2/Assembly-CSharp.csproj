@@ -88,6 +88,7 @@
     <Compile Include="Assets\#TL\Scripts\_OLD\Stantion\StantionHP.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\LosePanel.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\WinPanel.cs" />
+    <Compile Include="Assets\MonsterHit.cs" />
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
