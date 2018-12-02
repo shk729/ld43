@@ -88,11 +88,11 @@
     <Compile Include="Assets\#TL\Scripts\_OLD\Stantion\StantionHP.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\LosePanel.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\WinPanel.cs" />
-    <Compile Include="Assets\MonsterHit.cs" />
     <Compile Include="Assets\ScenaryPlayer.cs" />
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
+    <Compile Include="Assets\Scripts\Monster\MonsterHit.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\Monster\xMonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\arm_rotate.cs" />
@@ -102,6 +102,8 @@
     <Compile Include="Assets\Scripts\Player\player_stat.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Player\pMove.cs" />
+    <Compile Include="Assets\Scripts\Player\ScenaryPlayer.cs" />
+    <Compile Include="Assets\Scripts\SM\Marker.cs" />
     <Compile Include="Assets\Scripts\SM\SM.cs" />
     <Compile Include="Assets\Scripts\xHero\GunArmAbility.cs" />
     <Compile Include="Assets\Scripts\xHero\GunShotAbility.cs" />
