@@ -110,28 +110,30 @@ class WaitForNoMonsters : StateItem
 
 class ActivateSpawner : StateItem
 {
-    private string tag;
+    private string name;
     private bool value = true;
 
-    public ActivateSpawner(string tag, bool value)
+    public ActivateSpawner(string name, bool value)
     {
-        this.tag = tag;
+        this.name = name;
         this.value = value;
     }
 
-    public ActivateSpawner(string tag)
+    public ActivateSpawner(string name)
     {
-        this.tag = tag;
+        this.name = name;
     }
 
     public override StateItem run()
     {
-        GameObject[] spawners = GameObject.FindGameObjectsWithTag(tag);
-        foreach(GameObject spawner in spawners)
+
+        xMonsterSpawner[] spawners = GameObject.FindObjectsOfType<xMonsterSpawner>();
+        foreach(xMonsterSpawner spawner in spawners)
         {
-            xMonsterSpawner item = spawner.GetComponent<xMonsterSpawner>();
-            if (item == null) continue;
-            item.active = value;
+            Debug.Log("CHECK " + spawner.name + " - " + name + " == " + (!spawner.name.Equals(name)));
+            if (!spawner.name.Equals(name) ) continue;
+            Debug.Log("RUN " + spawner.name + " - " + name + " == " + (!spawner.name.Equals(name)));
+            spawner.active = value;
         }
 
         return next;

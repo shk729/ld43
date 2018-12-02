@@ -13,14 +13,16 @@ public class ScenaryPlayer : MonoBehaviour {
     // Use this for initialization
     void Start () {
         scenary
-            .then(new LogState("Start of machine"))
-            .then(new WaitState(0.5f))
-            .then( new ChangeActiveState(messages, "WaveComplete", true) ) 
-            .then(new LogState("Afffter delllay"))
-            .then(new WaitState(0.5f))
-            .then(new LogState("Afffter delllay 2 COOOL !!!"))
+            .then( new LogState("Start of machine") )
+            //.then(new WaitState(0.5f))
+            //.then(new LogState("Afffter delllay"))
+            //.then(new WaitState(0.5f))
+            //.then(new LogState("Afffter delllay 2 COOOL !!!"))
+            .then( new ActivateSpawner("Spawner_1") )
+            .then(new WaitState(3f))
             .then(new WaitForNoMonsters())
             .then(new LogState("thea all DEAD!!!!"))
+            .then(new ChangeActiveState(messages, "WaveComplete", true))
             ;
 	}
 	
