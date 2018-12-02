@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4096581163285400}
   - component: {fileID: 212908360613392628}
-  - component: {fileID: 61250085916010266}
   m_Layer: 0
   m_Name: bg_item_bush_2
   m_TagString: Untagged
@@ -41,31 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61250085916010266
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1600902295094952}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.007950693, y: -0.032817364}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.29, y: 0.88}
-    newSize: {x: 0.71, y: 0.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.0116074, y: 0.5977123}
-  m_EdgeRadius: 0
 --- !u!212 &212908360613392628
 SpriteRenderer:
   m_ObjectHideFlags: 1

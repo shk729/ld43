@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4013894704171636}
   - component: {fileID: 212865007960288946}
-  - component: {fileID: 61260632581510218}
   m_Layer: 0
   m_Name: bg_item_rock_2
   m_TagString: Untagged
@@ -41,31 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61260632581510218
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1974254609918002}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.010143183, y: -0.011988424}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.23}
-    newSize: {x: 0.71, y: 0.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.14336756, y: 0.11754912}
-  m_EdgeRadius: 0
 --- !u!212 &212865007960288946
 SpriteRenderer:
   m_ObjectHideFlags: 1
