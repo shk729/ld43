@@ -40,12 +40,13 @@ public class player_stat : MonoBehaviour {
 
     public void playerDeath()
     {
-
-        Rarm.SetActive(false);
-        Larm.SetActive(false);
+        xAbility[] abilities = this.GetComponentsInChildren<xAbility>();
+        foreach(xAbility ability in abilities)
+        {
+            ability.enabled = false;
+            ability.gameObject.SetActive(false);
+        }
         this.GetComponent<Animator>().Play("hero_death");
-
-   
     }
 
     public void playerDestroy() {
