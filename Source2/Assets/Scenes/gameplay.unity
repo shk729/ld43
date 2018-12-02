@@ -284,16 +284,6 @@ Prefab:
       propertyPath: playerHPbar
       value: 
       objectReference: {fileID: 746127827}
-    - target: {fileID: 114486870780497066, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: bullet_gamage
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114451385584073382, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: damage
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
   m_IsPrefabAsset: 0
@@ -661,7 +651,7 @@ Prefab:
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
       propertyPath: initialDelay
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
@@ -1134,7 +1124,7 @@ Prefab:
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
       propertyPath: initialDelay
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
@@ -1379,7 +1369,7 @@ Prefab:
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
       propertyPath: initialDelay
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
@@ -1533,7 +1523,7 @@ Prefab:
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
       propertyPath: initialDelay
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
@@ -1704,11 +1694,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: 20.41
@@ -1749,116 +1734,6 @@ Prefab:
     - target: {fileID: 1552801303614290, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_Name
       value: Spawner (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.29999998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
@@ -2487,11 +2362,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: -24.18
@@ -2533,116 +2403,6 @@ Prefab:
       propertyPath: m_Name
       value: Spawner (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.29999998
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
   m_IsPrefabAsset: 0
@@ -2658,11 +2418,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: 20.9
@@ -2706,101 +2461,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
         type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
       propertyPath: initialDelay
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
@@ -2958,11 +2620,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: -1.1
@@ -3003,116 +2660,6 @@ Prefab:
     - target: {fileID: 1552801303614290, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_Name
       value: Spawner (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.29999998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
