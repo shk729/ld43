@@ -48,7 +48,6 @@ class ChangeActiveState : StateItem
     public override StateItem run()
     {
         Transform[] children = parent.GetComponentsInChildren<Transform>(true);
-        Debug.Log(children);
         foreach(Transform child in children)
         {
             if (child.name != name) continue;
