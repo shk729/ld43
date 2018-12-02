@@ -12,4 +12,14 @@ public abstract class xAbility : MonoBehaviour {
     }
 
     abstract public void doUpdate();
+
+    void DisableAbility()
+    {
+        enabled = false;
+    }
+
+    void EnableAbility()
+    {
+        enabled = true;
+    }
 }

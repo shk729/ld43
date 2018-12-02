@@ -31,6 +31,23 @@ class Scenary
 }
 
 
+class WaitUntilInactiveState : StateItem
+{
+    private GameObject objectToWait;
+
+    public WaitUntilInactiveState(GameObject obj)
+    {
+        this.objectToWait = obj;
+    }
+
+    public override StateItem run()
+    {
+        Debug.Log(objectToWait.active);
+        if (objectToWait.active) return this;
+        return next;
+    }
+}
+
 
 class ChangeActiveState : StateItem
 {

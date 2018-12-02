@@ -2028,7 +2028,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 721416095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1893376746}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 721416092}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &721416095
@@ -4868,6 +4901,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messages: {fileID: 620714013}
+  ui: {fileID: 1493569964}
+  dialogItem: {fileID: 1994752153}
   delay: 0.2
 --- !u!4 &1845606953
 Transform:
@@ -4943,6 +4978,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4940880676310714, guid: 1a1f40a6f843c4ca1ad1da24e91b48c3,
     type: 2}
   m_PrefabInternal: {fileID: 1890835758}
+--- !u!114 &1893376746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114326065236190338, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: 48c96d8cacc7eac4db670ba73ebddbb8, type: 3}
 --- !u!1001 &1915619956
 Prefab:
   m_ObjectHideFlags: 0
