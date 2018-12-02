@@ -44,4 +44,9 @@ public class xWalkAbility : xAbility {
     {
         return hero.GetComponent<Animator>();
     }
+
+    public void SetSpeed(float speed)
+    {
+        this.speed = speed;
+    }
 }
