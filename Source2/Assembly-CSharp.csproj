@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
+    <Compile Include="Assets\Scripts\Monster\MonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\arm_rotate.cs" />
     <Compile Include="Assets\Scripts\Player\Bullet_hit.cs" />
     <Compile Include="Assets\Scripts\Player\ChangeCursor.cs" />
@@ -101,6 +102,8 @@
     <Compile Include="Assets\Scripts\Player\player_stat.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Player\pMove.cs" />
+    <Compile Include="Assets\SwordAbility.cs" />
+    <Compile Include="Assets\SwordHit.cs" />
     <Compile Include="Assets\xAbilityTest.cs" />
     <Compile Include="Assets\xHeroStatus.cs" />
     <Compile Include="Assets\xWalkAbility.cs" />
