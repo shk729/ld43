@@ -81,7 +81,7 @@ class ShowCounter : StateItem
     {
         GameObject text = GameObject.FindGameObjectWithTag("UI_Counter");
         UnityEngine.UI.Text item = text.GetComponent<UnityEngine.UI.Text>();
-        item.text = "WoooooHooo: " + counter++;
+        item.text = "" + counter++;
         return next;
     }
 }
