@@ -6,6 +6,7 @@ public class xMonsterSpawner : MonoBehaviour {
     public bool active = true;
     public float delay;
     public bool infinitySpawn;
+    public GameObject defaultTarget;
     public GameObject[] monstersArray;
 
     private int i = 0;
@@ -26,7 +27,8 @@ public class xMonsterSpawner : MonoBehaviour {
 
     void Spawn()
     {
-        Instantiate(GetNext(), this.transform.position, Quaternion.identity);
+        GameObject monster = Instantiate(GetNext(), this.transform.position, Quaternion.identity);
+        monster.GetComponent<MonsterFollowAI>().target = defaultTarget;
         lastSpawn = Time.time;
     }
 
