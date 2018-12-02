@@ -74,7 +74,7 @@ class WaitForNoMonsters : StateItem
 {
     public override StateItem run()
     {
-        GameObject[] monsters = GameObject.FindGameObjectsWithTag("monster");
+        GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster");
         if (monsters.Length == 0) return next;
         return this;
     }

@@ -15,7 +15,10 @@ public class ScenaryPlayer : MonoBehaviour {
             .then(new WaitState(0.5f))
             .then(new LogState("Afffter delllay"))
             .then(new WaitState(0.5f))
-            .then(new LogState("Afffter delllay 2 COOOL !!!"));
+            .then(new LogState("Afffter delllay 2 COOOL !!!"))
+            .then(new WaitForNoMonsters())
+            .then(new LogState("thea all DEAD!!!!"))
+            ;
 	}
 	
 	// Update is called once per frame
