@@ -28,7 +28,10 @@ public class SwordAbility : MonoBehaviour {
         damageZone.SetActive(true);
     }
 
-    void AttackAnimation() { }
+    void AttackAnimation() {
+        Animator animator = this.GetComponent<Animator>();
+        animator.Play("sword_attack");
+    }
 
     bool IsReady()
     {
