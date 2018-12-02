@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class xMonsterSpawner : MonoBehaviour {
     public bool active = true;
+    public float initialDelay;
     public float delay;
     public bool infinitySpawn;
     public GameObject defaultTarget;
@@ -15,7 +16,7 @@ public class xMonsterSpawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        lastSpawn = Time.time + initialDelay;
 	}
 	
 	// Update is called once per frame
