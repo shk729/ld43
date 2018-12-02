@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4885966067676574}
   - component: {fileID: 114451385584073382}
-  - component: {fileID: 61826202419598522}
+  - component: {fileID: 58069432120747468}
   m_Layer: 9
   m_Name: DamageZone
   m_TagString: Untagged
@@ -241,8 +241,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1281873186921340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.61, y: -1.99, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.658, y: -1.38, z: 0}
+  m_LocalScale: {x: 3.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4224027290754272}
   m_RootOrder: 0
@@ -300,6 +300,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &58069432120747468
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281873186921340}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!61 &61760967871398250
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -324,31 +339,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.01}
-  m_EdgeRadius: 0
---- !u!61 &61826202419598522
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1281873186921340}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.12164199, y: 0.34041727}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.1895573, y: 1.6808345}
   m_EdgeRadius: 0
 --- !u!61 &61890444811777806
 BoxCollider2D:
@@ -457,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784c3fd33e803dd4cb48a4e3eddf9492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
 --- !u!114 &114486870780497066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -486,7 +476,7 @@ MonoBehaviour:
   bullet: {fileID: 1411787761240104}
   bulletSpeed: 1
   bulletImpulse: 300
-  shootSpeed: 0.2
+  shootSpeed: 0.15
 --- !u!114 &114835299469025816
 MonoBehaviour:
   m_ObjectHideFlags: 1
