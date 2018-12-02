@@ -31,6 +31,34 @@ class Scenary
 }
 
 
+
+class ChangeActiveState : StateItem
+{
+    private GameObject parent;
+    private string name;
+    private bool value;
+
+    public ChangeActiveState(GameObject parent, string name, bool value)
+    {
+        this.parent = parent;
+        this.name = name;
+        this.value = value;
+    }
+
+    public override StateItem run()
+    {
+        Transform[] children = parent.GetComponentsInChildren<Transform>(true);
+        Debug.Log(children);
+        foreach(Transform child in children)
+        {
+            if (child.name != name) continue;
+            child.gameObject.SetActive(value);
+        }
+        return next;
+    }
+}
+
+
 class WaitState : StateItem
 {
     private float delay;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pMove : RigidPausable {
+public class pMove : MonoBehaviour{
     private GameObject player;
     static Rigidbody2D playerBody;
 
@@ -26,8 +26,7 @@ public class pMove : RigidPausable {
 
     private void Awake()
     {
-        
-        body = playerBody;
+       
     }
 
     private void FixedUpdate()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShoot : RigidPausable {
+public class PlayerShoot : MonoBehaviour {
 
 	//[SerializeField]
 	public GameObject bullet;
@@ -22,8 +22,6 @@ public class PlayerShoot : RigidPausable {
 
 	void FixedUpdate () 
 	{
-		if (pause)
-			return;
 		if (Input.GetKey(KeyCode.Mouse0))
 		{
 			Fire ();

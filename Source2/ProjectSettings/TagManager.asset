@@ -10,6 +10,7 @@ TagManager:
   - Head
   - melee_collider
   - Player_Tag
+  - Marked
   layers:
   - Default
   - TransparentFX

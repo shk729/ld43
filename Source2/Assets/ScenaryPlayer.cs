@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ScenaryPlayer : MonoBehaviour {
 
+    public GameObject messages;
     public float delay = 0.2f;
+    
 
     private float lastRun;
     private Scenary scenary = new Scenary();
@@ -13,6 +15,7 @@ public class ScenaryPlayer : MonoBehaviour {
         scenary
             .then(new LogState("Start of machine"))
             .then(new WaitState(0.5f))
+            .then( new ChangeActiveState(messages, "WaveComplete", true) ) 
             .then(new LogState("Afffter delllay"))
             .then(new WaitState(0.5f))
             .then(new LogState("Afffter delllay 2 COOOL !!!"))
