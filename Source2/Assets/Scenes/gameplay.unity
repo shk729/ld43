@@ -189,6 +189,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4096581163285400, guid: 107431a3b2bb64adc9f7c6793a91e5a9,
     type: 2}
   m_PrefabInternal: {fileID: 40766507}
+--- !u!114 &53572147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114359926551720460, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: 4c4da3925a6c4c34cb3588654d25f9e7, type: 3}
 --- !u!1 &65605318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,11 +1176,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: -24.38
@@ -1215,104 +1216,6 @@ Prefab:
     - target: {fileID: 1552801303614290, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_Name
       value: Spawner (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
@@ -1887,11 +1790,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: 20.52
@@ -1932,104 +1830,6 @@ Prefab:
     - target: {fileID: 1552801303614290, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_Name
       value: Spawner (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
@@ -2374,7 +2174,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 721416095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 905637647}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 721416092}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &721416095
@@ -2686,11 +2519,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: -23.96
@@ -2732,104 +2560,6 @@ Prefab:
       propertyPath: m_Name
       value: Spawner (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
   m_IsPrefabAsset: 0
@@ -2840,11 +2570,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1925650958}
     m_Modifications:
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.size
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_LocalPosition.x
       value: -2.15
@@ -2886,116 +2611,6 @@ Prefab:
       propertyPath: m_Name
       value: Spawner (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: infinitySpawn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[2]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[3]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[4]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[5]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[6]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[7]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[8]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[9]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[10]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[11]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[12]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[13]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: monstersArray.Array.data[14]
-      value: 
-      objectReference: {fileID: 1995624398301996, guid: 3c7690ad852bf924cae4167c4408cb2d,
-        type: 2}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: initialDelay
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: delay
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114435910430077304, guid: 17c99e2f0c57d8f4c86249a387979362,
-        type: 2}
-      propertyPath: active
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.29999998
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
   m_IsPrefabAsset: 0
@@ -3004,6 +2619,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4311834461425822, guid: 17c99e2f0c57d8f4c86249a387979362,
     type: 2}
   m_PrefabInternal: {fileID: 838171566}
+--- !u!114 &905637647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: cecc2d8edab970f4da56aae530250f61, type: 3}
 --- !u!4 &936233470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4096581163285400, guid: 107431a3b2bb64adc9f7c6793a91e5a9,
@@ -3456,6 +3077,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e9f43f8e970e41d8b9078930f8578a3, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1202440296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114297224592546808, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1641557321}
+  m_Script: {fileID: 11500000, guid: d20596682549dc74482a307e33ab16a9, type: 3}
 --- !u!1 &1214622488
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,7 +4173,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1598972104}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 53572147}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1598972101}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1598972104
@@ -5010,7 +4670,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714504822}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1202440296}
+        m_MethodName: SetSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.05
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1714504819}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1994752153}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1714504822
@@ -5218,7 +4911,7 @@ Prefab:
       objectReference: {fileID: 10196384}
     - target: {fileID: 1552801303614290, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
       propertyPath: m_Name
-      value: Spawner (1)
+      value: Spawner_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c99e2f0c57d8f4c86249a387979362, type: 2}
@@ -5432,6 +5125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messages: {fileID: 620714013}
+  ui: {fileID: 1493569964}
+  dialogItem: {fileID: 1994752153}
   delay: 0.2
 --- !u!4 &1845606953
 Transform:

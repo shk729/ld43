@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c653427e2b3e0b64aaa197ba0c25a916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   initialDelay: 0
   delay: 0.2
   infinitySpawn: 0

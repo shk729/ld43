@@ -31,6 +31,23 @@ class Scenary
 }
 
 
+class WaitUntilInactiveState : StateItem
+{
+    private GameObject objectToWait;
+
+    public WaitUntilInactiveState(GameObject obj)
+    {
+        this.objectToWait = obj;
+    }
+
+    public override StateItem run()
+    {
+        Debug.Log(objectToWait.active);
+        if (objectToWait.active) return this;
+        return next;
+    }
+}
+
 
 class ChangeActiveState : StateItem
 {
@@ -48,7 +65,6 @@ class ChangeActiveState : StateItem
     public override StateItem run()
     {
         Transform[] children = parent.GetComponentsInChildren<Transform>(true);
-        Debug.Log(children);
         foreach(Transform child in children)
         {
             if (child.name != name) continue;
@@ -111,28 +127,28 @@ class WaitForNoMonsters : StateItem
 
 class ActivateSpawner : StateItem
 {
-    private string tag;
+    private string name;
     private bool value = true;
 
-    public ActivateSpawner(string tag, bool value)
+    public ActivateSpawner(string name, bool value)
     {
-        this.tag = tag;
+        this.name = name;
         this.value = value;
     }
 
-    public ActivateSpawner(string tag)
+    public ActivateSpawner(string name)
     {
-        this.tag = tag;
+        this.name = name;
     }
 
     public override StateItem run()
     {
-        GameObject[] spawners = GameObject.FindGameObjectsWithTag(tag);
-        foreach(GameObject spawner in spawners)
+
+        xMonsterSpawner[] spawners = GameObject.FindObjectsOfType<xMonsterSpawner>();
+        foreach(xMonsterSpawner spawner in spawners)
         {
-            xMonsterSpawner item = spawner.GetComponent<xMonsterSpawner>();
-            if (item == null) continue;
-            item.active = value;
+            if (!spawner.name.Equals(name) ) continue;
+            spawner.active = value;
         }
 
         return next;
