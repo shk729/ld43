@@ -10,6 +10,7 @@ public class xHeroAbilities : MonoBehaviour {
     public Text abilka1_text;
     public float Laser_duration;
     public float Laser_cooldown;
+    public float Laser_damage=100f;
 
 
     private float cooldownStart;
@@ -57,7 +58,7 @@ public class xHeroAbilities : MonoBehaviour {
         {
             if (hit.collider.gameObject.tag == "Monster")
             {
-                hit.collider.gameObject.GetComponent<Monster_stat>().Monster_hit(100f);
+                hit.collider.gameObject.GetComponent<Monster_stat>().Monster_hit(Laser_damage);
             }
         }
     }
