@@ -74,6 +74,15 @@ class ChangeActiveState : StateItem
     }
 }
 
+class ShowCounter : StateItem
+{
+    private int counter = 1;
+    public override StateItem run()
+    {
+        counter++;
+        return next;
+    }
+}
 
 class WaitState : StateItem
 {

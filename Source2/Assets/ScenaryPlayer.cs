@@ -34,6 +34,7 @@ public class ScenaryPlayer : MonoBehaviour {
         scenary
             .then(first)
             .then(new ActivateSpawner("Spawner_1"))
+            .then( new ShowCounter() )
             //.then(new ActivateSpawner("Spawner (3)"))
             .then(new WaitState(3f))
             .then(new WaitForNoMonsters())
