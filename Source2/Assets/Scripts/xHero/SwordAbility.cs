@@ -15,12 +15,11 @@ public class SwordAbility : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        if (!IsReady()) return;
         if (!Input.GetMouseButton(1)) return;
-		if (IsReady())
-        {
-            Attack();
-            AttackAnimation();
-        }
+        Attack();
+        AttackAnimation();
+        
 	}
 
     void Attack()
@@ -34,7 +33,7 @@ public class SwordAbility : MonoBehaviour {
     bool IsReady()
     {
         float time = Time.time;
-        if (damageZone.active &&  time > lastAttack + attackTime) damageZone.SetActive(false);
+        if (damageZone.activeSelf &&  time > lastAttack + attackTime) damageZone.SetActive(false);
         return time > lastAttack + cooldown;
     }
 }

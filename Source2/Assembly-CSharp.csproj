@@ -88,13 +88,11 @@
     <Compile Include="Assets\#TL\Scripts\_OLD\Stantion\StantionHP.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\LosePanel.cs" />
     <Compile Include="Assets\#TL\Scripts\_OLD\WinLose\WinPanel.cs" />
-    <Compile Include="Assets\GunArmAbility.cs" />
-    <Compile Include="Assets\GunShotAbility.cs" />
-    <Compile Include="Assets\melee_control.cs" />
     <Compile Include="Assets\Scripts\Camera\pCameraMove.cs" />
     <Compile Include="Assets\Scripts\Monster\Monster_stat.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterFollowAI.cs" />
     <Compile Include="Assets\Scripts\Monster\MonsterSpawner.cs" />
+    <Compile Include="Assets\Scripts\Monster\xMonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\arm_rotate.cs" />
     <Compile Include="Assets\Scripts\Player\Bullet_hit.cs" />
     <Compile Include="Assets\Scripts\Player\ChangeCursor.cs" />
@@ -102,11 +100,13 @@
     <Compile Include="Assets\Scripts\Player\player_stat.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Player\pMove.cs" />
-    <Compile Include="Assets\SwordAbility.cs" />
-    <Compile Include="Assets\SwordHit.cs" />
-    <Compile Include="Assets\xAbilityTest.cs" />
-    <Compile Include="Assets\xHeroStatus.cs" />
-    <Compile Include="Assets\xWalkAbility.cs" />
+    <Compile Include="Assets\Scripts\xHero\GunArmAbility.cs" />
+    <Compile Include="Assets\Scripts\xHero\GunShotAbility.cs" />
+    <Compile Include="Assets\Scripts\xHero\SwordAbility.cs" />
+    <Compile Include="Assets\Scripts\xHero\SwordHit.cs" />
+    <Compile Include="Assets\Scripts\xHero\xAbilityTest.cs" />
+    <Compile Include="Assets\Scripts\xHero\xHeroStatus.cs" />
+    <Compile Include="Assets\Scripts\xHero\xWalkAbility.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/WS/ld43/ld43/Source2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
