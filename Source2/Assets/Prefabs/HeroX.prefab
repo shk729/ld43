@@ -417,6 +417,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lr: {fileID: 120334249562587052}
   cam: {fileID: 0}
+  abilka1_text: {fileID: 0}
+  Laser_duration: 3
+  Laser_cooldown: 7
 --- !u!114 &114297224592546808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -509,7 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421b936355e7d4fc1bec5a1043b1e186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_gamage: 4
+  bullet_gamage: 5
 --- !u!114 &114569425504891826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -743,8 +746,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1831651129
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce8177316c9fa4b0693985dac0a0e072, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

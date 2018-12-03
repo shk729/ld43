@@ -334,7 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   monster_damage: 5
-  speed: 0.02
+  speed: 0.05
 --- !u!114 &114251925606942538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f7f9f5f1a2148b4ba8e168f2f98209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster_HP: 25
+  monster_HP: 20
   monster_anim: {fileID: 95440780088531974}
   monsterSlider: {fileID: 114932886079181980}
 --- !u!114 &114533442205055382
