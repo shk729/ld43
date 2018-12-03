@@ -5133,6 +5133,11 @@ Prefab:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114900781796558376, guid: 73572aae0dd7325489995efe19d83df5,
+        type: 2}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73572aae0dd7325489995efe19d83df5, type: 2}
   m_IsPrefabAsset: 0
