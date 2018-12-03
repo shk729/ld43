@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StartMenuManager : MonoBehaviour {
-
+    public GameObject creditsPanel;
 
 
 
@@ -15,11 +15,17 @@ public class StartMenuManager : MonoBehaviour {
 
     public void OnCreditPress()
     {
+        creditsPanel.SetActive(true);
 
     }
 
     public void OnQuitPress()
     {
+        Application.Quit();
+    }
 
+    public void onCreditClose()
+    {
+        creditsPanel.SetActive(false);
     }
 }
