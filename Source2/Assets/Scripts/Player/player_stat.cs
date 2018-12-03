@@ -12,8 +12,8 @@ public class player_stat : MonoBehaviour {
     [SerializeField]
     public Slider playerHPbar;
 
-    public float current_HP = 100f;
-    private float maxValue_slider = 100f;
+    public float current_HP = 300f;
+    private float maxValue_slider = 300f;
 
     void Start()
     {

@@ -418,8 +418,8 @@ MonoBehaviour:
   lr: {fileID: 120334249562587052}
   cam: {fileID: 0}
   abilka1_text: {fileID: 0}
-  Laser_duration: 2
-  Laser_cooldown: 8
+  Laser_duration: 3
+  Laser_cooldown: 7
   Laser_damage: 25
 --- !u!114 &114297224592546808
 MonoBehaviour:
@@ -489,7 +489,7 @@ MonoBehaviour:
   Rarm: {fileID: 1611260639494432}
   Larm: {fileID: 1312281660808742}
   playerHPbar: {fileID: 0}
-  current_HP: 100
+  current_HP: 300
 --- !u!114 &114451385584073382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -530,7 +530,7 @@ MonoBehaviour:
   bullet: {fileID: 1411787761240104}
   bulletSpeed: 1
   bulletImpulse: 300
-  shootSpeed: 0.15
+  shootSpeed: 0.02
 --- !u!120 &120334249562587052
 LineRenderer:
   m_ObjectHideFlags: 1

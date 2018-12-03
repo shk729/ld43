@@ -144,7 +144,7 @@ class RestoreHPState : StateItem
     public override StateItem run()
     {
         player_stat stat = GameObject.FindObjectOfType<player_stat>();
-        stat.current_HP = 100;
+        stat.current_HP = 300;
         return next;
     }
 }
