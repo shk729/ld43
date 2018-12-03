@@ -246,7 +246,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -257,11 +257,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Dialogg.e.fger\gwefgwefgs
-
-    efsefw
-
-    wefeeeeeee'
+  m_Text: "Alas! It's not that easy dude.\nThis test does not make any sense,\n                                                           as
+    well as my income reports.\nThat is why you must choose\nwhich of your strengths
+    you will sacrifice to continue."
 --- !u!222 &65605321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4385,36 +4383,16 @@ Prefab:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1379507415}
-    - target: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 1379507415}
     - target: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
       propertyPath: abilka1_text
       value: 
       objectReference: {fileID: 711338331}
-    - target: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+    - target: {fileID: 114569425504891826, guid: 0dbbe3fe6971a2b4981433964cd095c7,
         type: 2}
-      propertyPath: Laser_duration
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: Laser_cooldown
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 212451380557800070, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: -1831651129
-      objectReference: {fileID: 0}
-    - target: {fileID: 212451380557800070, guid: 0dbbe3fe6971a2b4981433964cd095c7,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1379507415}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
   m_IsPrefabAsset: 0
