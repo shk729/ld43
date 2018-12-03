@@ -47,6 +47,7 @@ public class ScenaryPlayer : MonoBehaviour {
             .then(new ChangeActiveState(messages, "WaveComplete", true))
             .then(new WaitState(2.2f))
             .then(new ChangeActiveState(messages, "WaveComplete", false))
+            .then( new RestoreHPState() )
             .then(new ChangeActiveState(ui, "Skill choose panel", true))
             .then(new WaitUntilInactiveState(dialogItem))
             .then(first)
