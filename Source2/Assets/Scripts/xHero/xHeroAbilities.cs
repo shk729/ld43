@@ -55,7 +55,6 @@ public class xHeroAbilities : MonoBehaviour {
 
     public void LaserShot()
     {
-        Debug.Log("LaserShot");
 
         Vector3 temp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
         Vector3 currentMousePosition = cam.ScreenToWorldPoint(temp);
@@ -75,15 +74,13 @@ public class xHeroAbilities : MonoBehaviour {
         }    
     }
 
-    IEnumerator LaserShootEnd(){
-        Debug.Log("LaserShootEnd");        
+    IEnumerator LaserShootEnd(){    
         yield return new WaitForSeconds(Laser_duration);
         lr.enabled = false;
     }
 
     IEnumerator LaserCooldownEnd()
     {
-        Debug.Log("LaserCooldownEnd");
         yield return new WaitForSeconds(Laser_cooldown);
         cooldown = false;
         abilka1_text.text = " ";
