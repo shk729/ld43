@@ -8,6 +8,7 @@ public class GunShotAbility : xAbility {
     public float bulletSpeed = 0.5f;
     public float bulletImpulse = 300f;
     public float shootSpeed = 0.2f;
+    public GameplayAudioManager audioManager;
 
     private float lastShotTime;
     private Vector2 bulletPosition;
@@ -41,6 +42,7 @@ public class GunShotAbility : xAbility {
 
         if (Time.time > (lastShotTime + shootSpeed))
         {
+            audioManager.PlayGunSound();
 
             Vector3 temp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f);
             Vector3 currentMousePosition = cam.ScreenToWorldPoint(temp);
