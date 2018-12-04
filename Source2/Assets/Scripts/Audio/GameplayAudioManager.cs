@@ -7,6 +7,7 @@ public class GameplayAudioManager : MonoBehaviour {
 
     public AudioSource swordSound;
     public AudioSource gunSound;
+    public AudioSource laserSound;
 
 
     // Use this for initialization
@@ -33,5 +34,18 @@ public class GameplayAudioManager : MonoBehaviour {
     public void PlayGunSound()
     {
         gunSound.PlayOneShot(gunSound.clip);
+    }
+
+    public void PlayLaserSound()
+    {
+        if (!laserSound.isPlaying)
+        {
+            laserSound.Play();
+        }
+    }
+
+    public void StopLaserSound()
+    {
+        laserSound.Stop();
     }
 }

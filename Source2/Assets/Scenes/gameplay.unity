@@ -284,7 +284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &94196129
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1809,7 +1809,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4a1ebd726ca10974d936a8b2f154f6d2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.267
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2413,6 +2413,7 @@ MonoBehaviour:
   bgMusicSource: {fileID: 0}
   swordSound: {fileID: 0}
   gunSound: {fileID: 0}
+  laserSound: {fileID: 0}
 --- !u!4 &724238754
 Transform:
   m_ObjectHideFlags: 0
@@ -4000,7 +4001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -101, y: -274}
+  m_AnchoredPosition: {x: 10, y: -274}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1513748140
@@ -4106,7 +4107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1533110411
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4822,6 +4823,11 @@ Prefab:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 2049957746}
+    - target: {fileID: 114258579064147248, guid: 0dbbe3fe6971a2b4981433964cd095c7,
+        type: 2}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 2049957746}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbbe3fe6971a2b4981433964cd095c7, type: 2}
   m_IsPrefabAsset: 0
@@ -5201,7 +5207,7 @@ GameObject:
   - component: {fileID: 1732474987}
   - component: {fileID: 1732474988}
   m_Layer: 0
-  m_Name: Boom
+  m_Name: LaserSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5229,8 +5235,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c3a00a94669af6246a6b3bd42dcfd185, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: b40ab21c94e0241488e916453834d96c, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -6151,6 +6157,7 @@ MonoBehaviour:
   bgMusicSource: {fileID: 1338820878}
   swordSound: {fileID: 1590283052}
   gunSound: {fileID: 601128261}
+  laserSound: {fileID: 1732474988}
 --- !u!1001 &2134913702
 Prefab:
   m_ObjectHideFlags: 0

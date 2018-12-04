@@ -11,6 +11,7 @@ public class xHeroAbilities : MonoBehaviour {
     public float Laser_duration;
     public float Laser_cooldown;
     public float Laser_damage=100f;
+    public GameplayAudioManager audioManager;
 
 
     private float cooldownStart;
@@ -35,15 +36,26 @@ public class xHeroAbilities : MonoBehaviour {
 
         }
 
-        if (lr.enabled) LaserShot();
+        if (lr.enabled)
+        {
+            audioManager.PlayLaserSound();
+            LaserShot();
+        } else
+        {
+            audioManager.StopLaserSound();
+        }
 
-        if (cooldown) abilka1_text.text = (cooldownStart + Laser_cooldown - Time.fixedTime).ToString("F0");
+        if (cooldown)
+        {            
+            abilka1_text.text = (cooldownStart + Laser_cooldown - Time.fixedTime).ToString("F0");
+        }
 
     }
 
 
     public void LaserShot()
     {
+        Debug.Log("LaserShot");
 
         Vector3 temp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
         Vector3 currentMousePosition = cam.ScreenToWorldPoint(temp);
@@ -52,7 +64,7 @@ public class xHeroAbilities : MonoBehaviour {
 
         lr.SetPosition(0, mouseDirection * 10);
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, mouseDirection, 100f);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, mouseDirection, 100f);        
 
         if (hit.collider != null)
         {
@@ -60,17 +72,18 @@ public class xHeroAbilities : MonoBehaviour {
             {
                 hit.collider.gameObject.GetComponent<Monster_stat>().Monster_hit(Laser_damage);
             }
-        }
+        }    
     }
 
     IEnumerator LaserShootEnd(){
-    
+        Debug.Log("LaserShootEnd");        
         yield return new WaitForSeconds(Laser_duration);
         lr.enabled = false;
     }
 
     IEnumerator LaserCooldownEnd()
     {
+        Debug.Log("LaserCooldownEnd");
         yield return new WaitForSeconds(Laser_cooldown);
         cooldown = false;
         abilka1_text.text = " ";
