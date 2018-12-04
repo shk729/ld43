@@ -7,6 +7,7 @@ public class SwordAbility : xAbility
     public GameObject damageZone;
     public float cooldown;
     public float attackTime;
+    public GameplayAudioManager audioManager;
     private float lastAttack;
 
 	// Use this for initialization
@@ -30,6 +31,7 @@ public class SwordAbility : xAbility
     void AttackAnimation() {
         Animator animator = this.GetComponent<Animator>();
         animator.Play("sword_attack");
+        audioManager.PlaySwordSound();
     }
 
     bool IsReady()
